@@ -1,0 +1,12 @@
+/* Basic styles for the page */
+body {
+    font-family: Arial,sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+/* styling for buttons */
+button {
+margin: 5px;
+padding: 10px;
+cursor: pointer;
+}

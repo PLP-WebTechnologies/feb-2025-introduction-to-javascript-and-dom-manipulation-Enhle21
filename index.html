@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head> 
+        <meta charset="UTF-8">
+        <title> A Simple JavaScript Interaction</title>
+
+        <!--a link to external css file -->
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <!-- body of the HTML document -->
+    <body>
+        <!--header section with a heading-->
+        <header>
+            <h1 id="main-heading"> Welcome To Mbali's Page </h1>
+        </header>
+
+        <!--main content area-->
+        <main>
+            <!--paragraph to give some instruction-->
+            <p id="info-text">Click the buttons below to interact with the page</p>
+            <!--buttons to trigger javascript functions-->
+            <button onclick="changeText()">Change Text</button>
+            <button onclick="changeColor()">Change Color</button>
+            <button onclick="addElement()">Add Element</button>
+            <button onclick="removeElement">Remove Element</button>
+
+            <!--Container for new element that may be added-->
+            <div id="extra-container"></div>
+        </main>
+
+        <!--footer section-->
+        <footer>
+            <p>&copy, 2025 Palesa Mbali Tshabangu</p>
+        </footer>
+    </body>
+</html>
